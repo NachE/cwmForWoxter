@@ -10,7 +10,7 @@
 #/sd-ext		vfat		/dev/block/vold/179:1
 /sdcard		vfat		/dev/block/nandi
 #/sdcard		vfat		/dev/block/mmcblk0p1	/dev/block/nandi
-/sd-ext		auto		/dev/block/mmcblk0p2
+/sd-ext		auto		/dev/block/mmcblk0p1
 /system		ext4		/dev/block/nandd
 
 # extraido de la rom 4.0.4 original de woxter:
