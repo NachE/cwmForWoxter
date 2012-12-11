@@ -7,6 +7,14 @@
 # This script use abootimg so you need to have this installed.
 #
 
+
+if [ $# -ne 4 ]; then
+  echo "Usage: $0 <outfile.img> ramdisk_dir/ bootimg.cfg zImage"
+  exit 2
+fi
+
+
+
 if [ -f $1 ]; then
 echo "File $1 already exists, exiting..."
 exit 1
